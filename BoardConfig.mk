@@ -33,6 +33,14 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 # Try to build the kernel
 TARGET_KERNEL_SOURCE := kernel/google/msm
 TARGET_KERNEL_CONFIG := cyanogen_mako_defconfig
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+
+# LIQUIFY OPTIMIZATIONS V1
+# LIQUIFY := true
+
+# Changelog
+LIQUID_CHANGELOG := true
 
 BOARD_USES_ALSA_AUDIO:= true
 BOARD_USES_LEGACY_ALSA_AUDIO:= false
