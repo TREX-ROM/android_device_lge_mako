@@ -136,8 +136,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.audio.fluence.voicecall=true \
 	persist.audio.handset.mic=dmic \
 	persist.audio.fluence.mode=endfire \
-	persist.audio.lowlatency.rec=false
-
+	persist.audio.lowlatency.rec=false \
+        lpa.decode=false \
+        lpa.releaselock=false \
+        lpa.use-stagefright=false \
+        tunnel.decode=false	
 
 # Do not power down SIM card when modem is sent to Low Power Mode.
 PRODUCT_PROPERTY_OVERRIDES += \
