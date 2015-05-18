@@ -1,9 +1,9 @@
 [
  {
    "remote": "gh",
-   "repository": "CyanogenMod/android_kernel_google_msm",
+   "repository": "t-rex600/android_kernel_lge_mako",
    "target_path": "kernel/google/msm",
-   "revision": "cm-12.1"
+   "revision": "5.1"
  },
  {
    "remote": "tm",
