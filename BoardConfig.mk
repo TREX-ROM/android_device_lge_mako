@@ -36,8 +36,12 @@ TARGET_KERNEL_CONFIG := liquiddark_mako_defconfig
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
-# LIQUIFY OPTIMIZATIONS V1
-# LIQUIFY := true
+# Liquid Optimizations
+USE_O3 := true
+STRICT := true
+GRAPHITE := true
+LTO := true
+TARGET_ENABLE_UKM := true
 
 # Changelog
 LIQUID_CHANGELOG := true
