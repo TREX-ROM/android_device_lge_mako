@@ -4,11 +4,5 @@
    "repository": "t-rex600/android_kernel_lge_mako",
    "target_path": "kernel/google/msm",
    "revision": "5.1"
- },
- {
-   "remote": "tm",
-   "repository": "proprietary_vendor_lge",
-   "target_path": "vendor/lge",
-   "revision": "cm-12.1"
  }
 ]
