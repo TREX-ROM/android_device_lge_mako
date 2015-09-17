@@ -1,7 +1,7 @@
 [
  {
    "remote": "gh",
-   "repository": "t-rex600/android_kernel_lge_mako",
+   "repository": "TREX-ROM/android_kernel_lge_mako",
    "target_path": "kernel/google/msm_mako",
    "revision": "5.1"
  }
