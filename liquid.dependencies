@@ -1,8 +1,8 @@
 [
  {
    "remote": "gh",
-   "repository": "TREX-ROM/hells-Core-N4",
+   "repository": "CyanogenMod/android_kernel_google_msm",
    "target_path": "kernel/google/msm",
-   "revision": "marshmallow"
+   "revision": "cm-13.0"
  }
 ]
