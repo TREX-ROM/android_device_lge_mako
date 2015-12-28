@@ -1,0 +1,8 @@
+[
+ {
+   "remote": "gh",
+   "repository": "hellsgod/hells-Core-N4",
+   "target_path": "kernel/google/msm_mako",
+   "revision": "marshmallow"
+ }
+]
