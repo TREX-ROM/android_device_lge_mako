@@ -17,6 +17,13 @@
 # This file includes all definitions that apply to ALL mako devices, and
 # are also specific to mako devices
 #
+
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+  LOCAL_KERNEL := kernel/google/msm
+else
+  LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
+
 # Everything in this directory will become public
 
 DEVICE_PACKAGE_OVERLAYS := device/lge/mako/overlay
