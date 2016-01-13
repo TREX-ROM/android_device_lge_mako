@@ -19,11 +19,11 @@
 #
 # Everything in this directory will become public
 
- +ifeq ($(TARGET_PREBUILT_KERNEL),)
-+  LOCAL_KERNEL := kernel/google/msm_mako
-+else
-+  LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-+endif
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+  LOCAL_KERNEL := kernel/google/msm_mako
+else
+  LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
 
 DEVICE_PACKAGE_OVERLAYS := device/lge/mako/overlay
 
