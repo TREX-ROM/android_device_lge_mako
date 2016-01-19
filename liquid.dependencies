@@ -4,11 +4,5 @@
    "repository": "TREX-ROM/vendor_lge_mako",
    "target_path": "vendor/lge/mako-mm",
    "revision": "mm6.0"
- },
- {
-   "remote": "gh",
-   "repository": "TREX-ROM/kernel_lge_mako",
-   "target_path": "kernel/google/msm_mako",
-   "revision": "mm-6.0"
  }
 ]

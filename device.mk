@@ -19,12 +19,6 @@
 #
 # Everything in this directory will become public
 
- +ifeq ($(TARGET_PREBUILT_KERNEL),)
-+  LOCAL_KERNEL := kernel/google/msm_mako
-+else
-+  LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-+endif
-
 DEVICE_PACKAGE_OVERLAYS := device/lge/mako/overlay
 
 # This device is xhdpi.  However the platform doesn't
@@ -46,6 +40,19 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     charger_res_images
+
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+ifeq ($(USE_SVELTE_KERNEL),true)
+LOCAL_KERNEL := device/lge/mako_svelte-kernel/kernel
+else
+LOCAL_KERNEL := device/lge/mako-kernel/kernel
+endif
+else
+LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
+
+PRODUCT_COPY_FILES := \
+	$(LOCAL_KERNEL):kernel
 
 PRODUCT_COPY_FILES += \
 	device/lge/mako/WCNSS_cfg.dat:system/vendor/firmware/wlan/prima/WCNSS_cfg.dat \

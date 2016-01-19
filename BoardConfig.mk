@@ -26,15 +26,8 @@ TARGET_NO_BOOTLOADER := true
 
 BOARD_KERNEL_BASE := 0x80200000
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=mako lpj=67677 user_debug=31 androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=mako lpj=67677 user_debug=31
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
-
-# Try to build the kernel
-TARGET_KERNEL_SOURCE := kernel/google/msm_mako
-TARGET_KERNEL_CONFIG := mako_defconfig
-
-# Changelog
-LIQUID_CHANGELOG := true
 
 TOUCH_BOOST_DEBUG := false
 
