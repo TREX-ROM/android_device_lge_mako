@@ -7,8 +7,8 @@
  },
  {
    "remote": "gh",
-   "repository": "TREX-ROM/kernel_lge_mako",
+   "repository": "txuki2005/TaUrUs_Kernel",
    "target_path": "kernel/google/msm_mako",
-   "revision": "mm-6.0"
+   "revision": "taurus-mallow"
  }
 ]
