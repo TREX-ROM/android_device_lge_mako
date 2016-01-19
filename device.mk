@@ -19,7 +19,7 @@
 #
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-  LOCAL_KERNEL := kernel/google/msm
+  LOCAL_KERNEL := kernel/google/msm-mako
 else
   LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
