@@ -10,11 +10,5 @@
   "repository": "CyanogenMod/android_external_stlport",
   "target_path": "external/stlport",
   "revision": "cm-13.0"
- },
- {
-  "remote": "gh",
-  "repository": "TREX-ROM/vendor_lge_mako",
-  "target_path": "vendor/lge/mako-mm",
-  "revision": "mm6.0"
  }
 ]
