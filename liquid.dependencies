@@ -1,9 +1,9 @@
 [
  {
-  "remote": "gh",
-  "repository": "txuki2005/TaUrUs_Kernel",
-  "target_path": "kernel/google/msm-mako",
-  "revision": "taurus-mallow"
+   "remote": "gh",
+   "repository": "CyanogenMod/android_kernel_google_msm",
+   "target_path": "kernel/google/msm",
+   "revision": "cm-13.0"
  },
  {
   "remote": "gh",
