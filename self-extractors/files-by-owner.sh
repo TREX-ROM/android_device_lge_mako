@@ -78,7 +78,7 @@ if test "$auto_owner" = "$target_owner"
 then
 if test $file != system/lib/libacdbloader.so
 then
-echo "    vendor/$target_owner/mako-mm/proprietary/$(basename $file):$file:$target_owner \\" >> $target_owner/staging/device-partial.mk
+echo "    vendor/$target_owner/mako/proprietary/$(basename $file):$file:$target_owner \\" >> $target_owner/staging/device-partial.mk
 fi
 echo "            $file \\" >> extract-lists.txt
 fi
