@@ -130,7 +130,7 @@ EXTENDED_FONT_FOOTPRINT := true
 
 MALLOC_IMPL := dlmalloc
 
--include vendor/lge/mako-mm/BoardConfigVendor.mk
+-include vendor/lge/mako/BoardConfigVendor.mk
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 
