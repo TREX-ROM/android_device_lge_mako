@@ -189,6 +189,9 @@ on post-fs-data
     # LED On/Off synchronization
     chown system system /sys/class/leds/red/device/lock
 
+    # MDSS PCC RGB colour adjust interface
+    chown system system /sys/devices/virtual/graphics/fb0/rgb 
+
     # communicate with mpdecision and thermald
     mkdir /dev/socket/mpdecision 2770 root system
 
