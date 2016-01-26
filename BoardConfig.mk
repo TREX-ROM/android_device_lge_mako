@@ -136,4 +136,7 @@ MALLOC_IMPL := dlmalloc
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 
-BOARD_HARDWARE_CLASS := device/lge/mako/cmhw/
+# CMHW
+BOARD_USES_CYANOGEN_HARDWARE := true
+BOARD_HARDWARE_CLASS := \
+    hardware/cyanogen/cmhw
