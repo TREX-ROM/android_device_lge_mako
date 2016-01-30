@@ -1,7 +1,7 @@
 [
  {
    "remote": "gh",
-   "repository": "zaclimon/Quanta-Mako",
+   "repository": "TREX-ROM/android_kernel_lge_mako",
    "target_path": "kernel/google/msm",
    "revision": "quanta-6.0"
  },
