@@ -1,9 +1,9 @@
 [
  {
    "remote": "gh",
-   "repository": "CyanogenMod/android_kernel_google_msm",
+   "repository": "zaclimon/Quanta-Mako",
    "target_path": "kernel/google/msm",
-   "revision": "cm-13.0"
+   "revision": "quanta-6.0"
  },
  {
   "remote": "gh",
