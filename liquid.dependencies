@@ -1,9 +1,9 @@
 [
  {
    "remote": "gh",
-   "repository": "TREX-ROM/android_kernel_lge_mako",
-   "target_path": "kernel/google/msm",
-   "revision": "quanta-6.0"
+   "repository": "spezi77/android_kernel_google_msm",
+   "target_path": "kernel/google/msm-mako",
+   "revision": "mm-6.0"
  },
  {
   "remote": "gh",
