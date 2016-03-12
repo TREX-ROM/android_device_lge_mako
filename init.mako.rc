@@ -460,3 +460,6 @@ service diag_mdlog /system/bin/diag_mdlog -s 100
 
 # on property:gsm.sim.state=READY
 #    start diag_mdlog
+
+# TCP congestion control
+     write /proc/sys/net/ipv4/tcp_congestion_control westwood
