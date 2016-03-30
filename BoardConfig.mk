@@ -31,7 +31,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 # Try to build the kernel
 TARGET_KERNEL_SOURCE := kernel/google/msm-mako
 TARGET_KERNEL_CONFIG := cyanogen_mako_defconfig
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.3/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-6.0/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Changelog
