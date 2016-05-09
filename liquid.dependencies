@@ -1,0 +1,14 @@
+[
+ {
+   "remote": "gh",
+   "repository": "spezi77/hellspawn-N4",
+   "target_path": "kernel/google/msm-mako",
+   "revision": "mm-6.0"
+ },
+ {
+  "remote": "gh",
+  "repository": "CyanogenMod/android_external_stlport",
+  "target_path": "external/stlport",
+  "revision": "cm-13.0"
+ }
+]
