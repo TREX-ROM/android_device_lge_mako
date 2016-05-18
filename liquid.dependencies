@@ -1,7 +1,7 @@
 [
  {
    "remote": "gh",
-   "repository": "spezi77/hellspawn-N4",
+   "repository": "TREX-ROM/hellspawn-N4",
    "target_path": "kernel/google/msm-mako",
    "revision": "mm-6.0"
  },
