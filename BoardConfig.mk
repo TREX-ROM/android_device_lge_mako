@@ -34,9 +34,9 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 # Inline kernel building
 TARGET_KERNEL_CONFIG := hellspawn_mako_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/msm-mako
-TARGET_GCC_VERSION_ARM := 7.0
+TARGET_GCC_VERSION_ARM := 6.0
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-7.0/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-6.0/bin
 
 # Changelog
 LIQUID_CHANGELOG := true
