@@ -5,7 +5,7 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 TARGET_BOOTANIMATION_USE_RGB565 := true
 
 # Inherit some common Liquid stuff.
-$(call inherit-product, vendor/liquid/config/common_full_phone.mk)
+$(call inherit-product, vendor/liquid/config/common_phone.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
